@@ -1,0 +1,30 @@
+.app{
+  min-height: 100vh;
+  padding: 20px;
+}
+.light{
+  background: #f4f4f4;
+  color: #000;
+}
+.dark{
+  background: #000000;
+  color: #ffffff;
+}
+.posts{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+}
+
+.card{
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+
+}
+.dark .card{
+  background: #333;
+}
+button{
+  margin: 5px;
+  padding: 6px 10px;
+}
